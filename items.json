@@ -1,0 +1,65 @@
+[
+  {
+    "id": "original-burger",
+    "category": "coal",
+    "name": "أوريجينال برجر",
+    "desc": "قطعة لحمة مشوية 150جم - خس - خيار مخلل - صوص شيدر",
+    "price": { "single": 100, "double": 140 },
+    "image": "https://i.postimg.cc/0Q5MJ9Hh/Whats-App-Image-2025-08-22-at-12-27-24-b1d2f33c.jpg",
+    "featured": true
+  },
+  {
+    "id": "mozzarella-burger",
+    "category": "coal",
+    "name": "موتزريلا برجر",
+    "desc": "150جم - خس - خيار مخلل - صوص - موتزريلا",
+    "price": { "single": 110, "double": 150 },
+    "image": "https://i.postimg.cc/0Q5MJ9Hh/Whats-App-Image-2025-08-22-at-12-27-24-b1d2f33c.jpg",
+    "featured": true
+  },
+  {
+    "id": "big-smash",
+    "category": "smashed",
+    "name": "بيج سماش",
+    "desc": "قطعة لحمة سماش 100جم - خس - خيار مخلل - صوص شيدر",
+    "price": { "single": 100, "double": 130 },
+    "image": "https://i.postimg.cc/0Q5MJ9Hh/Whats-App-Image-2025-08-22-at-12-27-24-b1d2f33c.jpg",
+    "featured": true
+  },
+  {
+    "id": "chili-chicken",
+    "category": "chicken",
+    "name": "شيلي تشيكن",
+    "desc": "فرايد تشيكن + صوصات حارة + موتزريلا",
+    "price": { "single": 145, "double": 185 },
+    "image": "img/chili-chicken.jpg",
+    "featured": true
+  },
+  {
+    "id": "classic-coal",
+    "category": "coal",
+    "name": "كلاسيك برجر",
+    "desc": "لحمة 150جم - طماطم - بصل - صوص كلاسيك",
+    "price": { "single": 95, "double": 135 },
+    "image": "img/classic-coal.jpg",
+    "featured": false
+  },
+  {
+    "id": "spicy-smash",
+    "category": "smashed",
+    "name": "سبيسي سماش",
+    "desc": "سماش حار مع هاليبينو وصوص حار",
+    "price": { "single": 105, "double": 145 },
+    "image": "img/spicy-smash.jpg",
+    "featured": false
+  },
+  {
+    "id": "crispy-chicken",
+    "category": "chicken",
+    "name": "كريسبي تشيكن",
+    "desc": "فرايد تشيكن كريسبي مع صوص عسل",
+    "price": { "single": 140, "double": 180 },
+    "image": "img/crispy-chicken.jpg",
+    "featured": false
+  }
+]

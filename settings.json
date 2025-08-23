@@ -1,0 +1,27 @@
+{
+  "brand": "BB2 Burger",
+  "currency": "EGP",
+  "whatsapp": "201006473229",
+  "delivery": {
+    "areas": [
+      { "id": "near", "name": "قريب", "fee": 5 },
+      { "id": "zone1", "name": "منطقة 1", "fee": 20 },
+      { "id": "zone2", "name": "منطقة 2", "fee": 30 }
+    ]
+  },
+  "social": {
+    "facebook": "https://www.facebook.com/share/1EhgB6LvHR/",
+    "instagram": "https://www.instagram.com/bb2burger?igsh=MWhuenhwcWJ4YjFqMQ==",
+    "whatsapp": "https://wa.me/201006473229"
+  },
+  "hours": "",
+  "address": "الساحه-شارع الاوقاف-عمارات الاستثمار عمارة 2 امام مدرسة التجارة",
+  "featuredCount": 6,
+  "logo": "https://i.postimg.cc/90b37MGv/Whats-App-Image-2025-08-22-at-10-03-25-621ae7a1-removebg-preview.png",
+  "banners": [
+    "https://i.postimg.cc/j2vRHvHq/Whats-App-Image-2025-08-22-at-10-00-01-8795b5f9.jpg",
+    "https://i.postimg.cc/dV3VBMNb/Whats-App-Image-2025-08-22-at-10-00-00-2b0ee8c4.jpg",
+    "https://i.postimg.cc/PrrXXsHC/Whats-App-Image-2025-08-22-at-09-59-57-bdc6b798.jpg",
+    "https://i.postimg.cc/y6T6C6Mq/Whats-App-Image-2025-08-22-at-09-59-53-5ae70d60.jpg"
+  ]
+}
