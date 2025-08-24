@@ -1,128 +1,65 @@
 [
   {
-    "id": "samman-burger",
+    "id": "original-burger",
+    "category": "coal",
+    "name": "أوريجينال برجر",
+    "desc": "قطعة لحمة مشوية 150جم - خس - خيار مخلل - صوص شيدر",
+    "price": { "single": 100, "double": 140 },
+    "image": "https://i.postimg.cc/0Q5MJ9Hh/Whats-App-Image-2025-08-22-at-12-27-24-b1d2f33c.jpg",
+    "featured": true
+  },
+  {
+    "id": "mozzarella-burger",
+    "category": "coal",
+    "name": "موتزريلا برجر",
+    "desc": "150جم - خس - خيار مخلل - صوص - موتزريلا",
+    "price": { "single": 110, "double": 150 },
+    "image": "https://i.postimg.cc/0Q5MJ9Hh/Whats-App-Image-2025-08-22-at-12-27-24-b1d2f33c.jpg",
+    "featured": true
+  },
+  {
+    "id": "big-smash",
     "category": "smashed",
-    "name": "سمانن برجر",
-    "desc": "قطعة لحمه صافي 100 جرام - خس - خيار مخلل - صوص شيدر - صوص باج تاسلي",
+    "name": "بيج سماش",
+    "desc": "قطعة لحمة سماش 100جم - خس - خيار مخلل - صوص شيدر",
     "price": { "single": 100, "double": 130 },
     "image": "https://i.postimg.cc/0Q5MJ9Hh/Whats-App-Image-2025-08-22-at-12-27-24-b1d2f33c.jpg",
-    "featured": false
-  },
-  {
-    "id": "ginamit-samman",
-    "category": "smashed",
-    "name": "جيناميت سمانن",
-    "desc": "قطعة لحمه صافي 100 جرام - خس - خيار مخلل - بصل مشوي - صوص شيدر - هاليناو - سيايسي مايوينيز",
-    "price": { "single": 115, "double": 145 },
-    "image": "https://i.postimg.cc/0Q5MJ9Hh/Whats-App-Image-2025-08-22-at-12-27-24-b1d2f33c.jpg",
-    "featured": false
-  },
-  {
-    "id": "special-samman",
-    "category": "smashed",
-    "name": "سيشيل سمانن",
-    "desc": "قطعة لحمه صافي 100 جرام - خس - خيار مخلل - صوص شيدر - صوص تكساسي - 2 اصابع موتزريلا استكس",
-    "price": { "single": 120, "double": 150 },
-    "image": "https://i.postimg.cc/0Q5MJ9Hh/Whats-App-Image-2025-08-22-at-12-27-24-b1d2f33c.jpg",
-    "featured": false
-  },
-  {
-    "id": "power-mix",
-    "category": "coal",
-    "name": "اقوي ميكس",
-    "desc": "قطعة برجر ع السجم + قطعة فرايد تشيكن - خس - خيار مخلل - موتزريلا استكس - صوص شيدر - ميكس شيبي صوص - قطعة زوار يك مشوي علي القجم",
-    "price": { "single": 200 },
-    "image": "https://i.postimg.cc/0Q5MJ9Hh/Whats-App-Image-2025-08-22-at-12-27-24-b1d2f33c.jpg",
     "featured": true
   },
   {
-    "id": "mix-cheese-burger",
-    "category": "coal",
-    "name": "ميكس تشيز برجر",
-    "desc": "قطعة لحمه صافي 150 جرام معشيه موتزريلا واصريخان تشيز - خس - خيار مخلل - شيدر صوص - تكساس صوص - اصابع موتزريلا استكس - قطعة زوار يك",
-    "price": { "single": 170 },
-    "image": "https://i.postimg.cc/0Q5MJ9Hh/Whats-App-Image-2025-08-22-at-12-27-24-b1d2f33c.jpg",
-    "featured": false
-  },
-  {
-    "id": "karmaiz-mashrouh-burger",
-    "category": "coal",
-    "name": "كرمايز مشروح برجر",
-    "desc": "قطعة لحمه صافي 150 جرام معشيه موتزريلا - خس - خيار مخلل - شيدر صوص - ميكس صوص - يقفو يونوب - اصابع موتزريلا استكس - بصل مشوي - مشروح مشوي ع القجم",
-    "price": { "single": 200 },
-    "image": "https://i.postimg.cc/0Q5MJ9Hh/Whats-App-Image-2025-08-22-at-12-27-24-b1d2f33c.jpg",
-    "featured": false
-  },
-  {
-    "id": "doritos-burger",
-    "category": "coal",
-    "name": "دوريتوس برجر",
-    "desc": "قطعة لحمه صافي 150 جرام معشيه موتزريلا - خس - خيار مخلل - شيدر صوص - موتزريلا استكس - ميكس قطع دوريتوس وبدخون",
-    "price": { "single": 210 },
-    "image": "https://i.postimg.cc/0Q5MJ9Hh/Whats-App-Image-2025-08-22-at-12-27-24-b1d2f33c.jpg",
+    "id": "chili-chicken",
+    "category": "chicken",
+    "name": "شيلي تشيكن",
+    "desc": "فرايد تشيكن + صوصات حارة + موتزريلا",
+    "price": { "single": 145, "double": 185 },
+    "image": "img/chili-chicken.jpg",
     "featured": true
   },
   {
-    "id": "big-b2-burger",
+    "id": "classic-coal",
     "category": "coal",
-    "name": "بج بي تو برجر",
-    "desc": "قطعة لحمه صافي 150 جرام معشيه موتزريلا وبدخون - خس - خيار مخلل - شيدر صوص - باجت صوص - اصابع موتزريلا استكس - فريدة بدخون مدخن مشويه",
-    "price": { "single": 200 },
-    "image": "https://i.postimg.cc/0Q5MJ9Hh/Whats-App-Image-2025-08-22-at-12-27-24-b1d2f33c.jpg",
+    "name": "كلاسيك برجر",
+    "desc": "لحمة 150جم - طماطم - بصل - صوص كلاسيك",
+    "price": { "single": 95, "double": 135 },
+    "image": "img/classic-coal.jpg",
     "featured": false
   },
   {
-    "id": "original-chicken",
-    "category": "chicken",
-    "name": "اوريجنال تشيكن",
-    "desc": "فريدة تشيكن - خس - خيار مخلل - صوص شيدر - صوص من اختيارك (صوص أساس، صوص شيبي، بروبلوم، توستد، رانش)",
-    "price": { "single": 90, "double": 130 },
-    "image": "https://i.postimg.cc/0Q5MJ9Hh/Whats-App-Image-2025-08-22-at-12-27-24-b1d2f33c.jpg",
+    "id": "spicy-smash",
+    "category": "smashed",
+    "name": "سبيسي سماش",
+    "desc": "سماش حار مع هاليبينو وصوص حار",
+    "price": { "single": 105, "double": 145 },
+    "image": "img/spicy-smash.jpg",
     "featured": false
   },
   {
-    "id": "spicy-chicken",
+    "id": "crispy-chicken",
     "category": "chicken",
-    "name": "سياسي تشيكن",
-    "desc": "خس - خيار مخلل - قطعة فرايد تشيكن - صوص شيدر - سيايسي مايوينيز - هاليناو",
-    "price": { "single": 90, "double": 130 },
-    "image": "https://i.postimg.cc/0Q5MJ9Hh/Whats-App-Image-2025-08-22-at-12-27-24-b1d2f33c.jpg",
-    "featured": false
-  },
-  {
-    "id": "shababi-chicken",
-    "category": "chicken",
-    "name": "شبابي تشيكن",
-    "desc": "قطعة فرايد تشيكن - خس - خيار مخلل - صوص شيدر - شبابي صوص - 2 اصابع موتزريلا - قطعة بيكن مشوي علي القجم",
-    "price": { "single": 145, "double": 185 },
-    "image": "https://i.postimg.cc/0Q5MJ9Hh/Whats-App-Image-2025-08-22-at-12-27-24-b1d2f33c.jpg",
-    "featured": false
-  },
-  {
-    "id": "zinger-chicken",
-    "category": "chicken",
-    "name": "زنش تشيكن",
-    "desc": "قطعة فرايد تشيكن - خس - خيار مخلل - صوص شيدر - قطعة بيبروني مشوي - صوص زنش - صوص شيدر - قطعة موتزريلا",
-    "price": { "single": 145, "double": 185 },
-    "image": "https://i.postimg.cc/0Q5MJ9Hh/Whats-App-Image-2025-08-22-at-12-27-24-b1d2f33c.jpg",
-    "featured": false
-  },
-  {
-    "id": "turkey-chicken",
-    "category": "chicken",
-    "name": "تركي تشيكن",
-    "desc": "فريدة تشيكن - خس - خيار مخلل - صوص شيدر - موتزريلا استكس - صوص زنش",
-    "price": { "single": 145, "double": 185 },
-    "image": "https://i.postimg.cc/0Q5MJ9Hh/Whats-App-Image-2025-08-22-at-12-27-24-b1d2f33c.jpg",
-    "featured": false
-  },
-  {
-    "id": "rose-chicken",
-    "category": "chicken",
-    "name": "روز تشيكن",
-    "desc": "فريدة تشيكن - خس - خيار مخلل - صوص شيدر - روز صوص - 2 اصابع موتزريلا استكس - رو بيف مشوي علي القحم",
-    "price": { "single": 145, "double": 185 },
-    "image": "https://i.postimg.cc/0Q5MJ9Hh/Whats-App-Image-2025-08-22-at-12-27-24-b1d2f33c.jpg",
+    "name": "كريسبي تشيكن",
+    "desc": "فرايد تشيكن كريسبي مع صوص عسل",
+    "price": { "single": 140, "double": 180 },
+    "image": "img/crispy-chicken.jpg",
     "featured": false
   }
 ]
