@@ -1,7 +1,7 @@
 [
   {
     "id": "original-burger-coal",
-    "category": "coal",
+    "category": 1,
     "name": "أوريجينال برجر",
     "desc": "قطعة لحمة مشوية 150جم - خس - خيار مخلل - صوص شيدر - صوص بي بي كيو",
     "price": { "single": 100, "double": 140 },
@@ -10,7 +10,7 @@
   },
   {
     "id": "mozzarella-burger-coal",
-    "category": "coal",
+    "category": 1,
     "name": "موتزريلا برجر",
     "desc": "قطعة لحمة مشوية 150جم - خس - خيار مخلل - صوص شيدر - صوص بي بي كيو",
     "price": { "single": 110, "double": 150 },
@@ -19,7 +19,7 @@
   },
   {
     "id": "spicy-burger-coal",
-    "category": "coal",
+    "category": 1,
     "name": "سبايسي برجر",
     "desc": "قطعة لحمة مشوية 150جم - خس - خيار مخلل - صوص شيدر - صوص سبايسي - هالبينو",
     "price": { "single": 100, "double": 140 },
@@ -28,7 +28,7 @@
   },
   {
     "id": "turkish-burger-coal",
-    "category": "coal",
+    "category": 1,
     "name": "تركي برجر",
     "desc": "قطعة لحمة مشوية 150جم - خس - خيار مخلل - صوص شيدر - 2 إصبع موتزريلا استيكس - شريحة تركي مدخن - مشروم",
     "price": { "single": 160, "double": 200 },
@@ -37,7 +37,7 @@
   },
   {
     "id": "bacon-burger-coal",
-    "category": "coal",
+    "category": 1,
     "name": "بيكون برجر",
     "desc": "قطعة لحمة مشوية 150جم - خس - خيار مخلل - صوص شيدر - صوص بي بي كيو - 2 إصبع موتزريلا استيكس - شريحة بيكون مدخن",
     "price": { "single": 160, "double": 200 },
@@ -46,7 +46,7 @@
   },
   {
     "id": "mix-cheese-burger",
-    "category": "smashed",
+    "category": 2,
     "name": "ميكس تشيز برجر",
     "desc": "قطعة لحمة سماش 150جم - خس - خيار مخلل - صوص شيدر - صوص بي بي كيو - أصابع موتزريلا استيكس - قطعة بيف",
     "price": { "single": 170, "double": 210 },
@@ -55,7 +55,7 @@
   },
   {
     "id": "creamy-mushroom-burger",
-    "category": "smashed",
+    "category": 2,
     "name": "كريملي مشروم برجر",
     "desc": "قطعة لحمة سماش 150جم - خس - خيار مخلل - صوص شيدر - صوص مشروم - قطع ببروني - أصابع موتزريلا استيكس - بصل مكرمل - مشروم مشوي ع الفحم",
     "price": { "single": 170, "double": 210 },
@@ -64,7 +64,7 @@
   },
   {
     "id": "doritos-burger",
-    "category": "smashed",
+    "category": 2,
     "name": "دوريتوس برجر",
     "desc": "قطعة لحمة سماش 150جم - خس - خيار مخلل - صوص شيدر - أصابع موتزريلا استيكس - ميكس طعم دوريتوس بيكون",
     "price": { "single": 170, "double": 210 },
@@ -73,7 +73,7 @@
   },
   {
     "id": "original-fried-chicken",
-    "category": "chicken",
+    "category": 3,
     "name": "أوريجينال تشيكن",
     "desc": "فرايد تشيكن - خس - خيار مخلل - صوص شيدر - صوص من اختيارك (بي بي كيو، سويت شيلي، هالبينو، موتزريلا، صوص جبنة)",
     "price": { "single": 90, "double": 130 },
@@ -82,7 +82,7 @@
   },
   {
     "id": "spicy-fried-chicken",
-    "category": "chicken",
+    "category": 3,
     "name": "سبايسي تشيكن",
     "desc": "خس - خيار مخلل - قطعة فرايد تشيكن - صوص شيدر - صوص سبايسي - هالبينو",
     "price": { "single": 90, "double": 130 },
@@ -91,7 +91,7 @@
   },
   {
     "id": "shili-fried-chicken",
-    "category": "chicken",
+    "category": 3,
     "name": "شيلي تشيكن",
     "desc": "قطعة فرايد تشيكن - خس - خيار مخلل - صوص شيدر - صوص شيلي - 2 أصابع موتزريلا",
     "price": { "single": 145, "double": 185 },
@@ -100,7 +100,7 @@
   },
   {
     "id": "ranch-fried-chicken",
-    "category": "chicken",
+    "category": 3,
     "name": "رانش تشيكن",
     "desc": "قطعة فرايد تشيكن - خس - خيار مخلل - 4 قطع بروني مشوي - صوص رانش",
     "price": { "single": 145, "double": 185 },
@@ -109,7 +109,7 @@
   },
   {
     "id": "turkish-fried-chicken",
-    "category": "chicken",
+    "category": 3,
     "name": "تركي تشيكن",
     "desc": "فرايد تشيكن - خس - خيار مخلل - صوص شيدر - صوص بي بي كيو - 2 أصابع موتزريلا استيكس - شريحة تركي مدخن - مشروم",
     "price": { "single": 145, "double": 185 },
@@ -118,7 +118,7 @@
   },
   {
     "id": "rose-fried-chicken",
-    "category": "chicken",
+    "category": 3,
     "name": "روز تشيكن",
     "desc": "فرايد تشيكن - خس - خيار مخلل - صوص شيدر - 2 أصابع موتزريلا استيكس - زيز بيف مشوي ع الفحم",
     "price": { "single": 145, "double": 185 },
@@ -127,7 +127,7 @@
   },
   {
     "id": "mozzarella-sticks",
-    "category": "addons",
+    "category": 4,
     "name": "موتزريلا استيكس",
     "desc": "",
     "price": { "single": 20 },
@@ -136,7 +136,7 @@
   },
   {
     "id": "mushrooms",
-    "category": "addons",
+    "category": 4,
     "name": "مشروم",
     "desc": "",
     "price": { "single": 15 },
@@ -145,7 +145,7 @@
   },
   {
     "id": "jalapeno",
-    "category": "addons",
+    "category": 4,
     "name": "هالبينو",
     "desc": "",
     "price": { "single": 15 },
@@ -154,7 +154,7 @@
   },
   {
     "id": "caramelized-onion",
-    "category": "addons",
+    "category": 4,
     "name": "بصل مكرمل",
     "desc": "",
     "price": { "single": 15 },
@@ -163,7 +163,7 @@
   },
   {
     "id": "turkish",
-    "category": "addons",
+    "category": 4,
     "name": "تركي",
     "desc": "",
     "price": { "single": 25 },
@@ -172,7 +172,7 @@
   },
   {
     "id": "pepperoni",
-    "category": "addons",
+    "category": 4,
     "name": "ببروني",
     "desc": "",
     "price": { "single": 25 },
@@ -181,7 +181,7 @@
   },
   {
     "id": "bacon",
-    "category": "addons",
+    "category": 4,
     "name": "بيكون",
     "desc": "",
     "price": { "single": 20 },
@@ -190,7 +190,7 @@
   },
   {
     "id": "cheese",
-    "category": "addons",
+    "category": 4,
     "name": "جبنة",
     "desc": "",
     "price": { "single": 20 },
@@ -199,7 +199,7 @@
   },
   {
     "id": "tasty",
-    "category": "addons",
+    "category": 4,
     "name": "تاستي",
     "desc": "",
     "price": { "single": 15 },
@@ -208,7 +208,7 @@
   },
   {
     "id": "texas",
-    "category": "addons",
+    "category": 4,
     "name": "تكساس",
     "desc": "",
     "price": { "single": 15 },
@@ -217,7 +217,7 @@
   },
   {
     "id": "potatoes",
-    "category": "addons",
+    "category": 4,
     "name": "بطاطس",
     "desc": "",
     "price": { "single": 40 },
@@ -226,7 +226,7 @@
   },
   {
     "id": "cheese-potatoes",
-    "category": "addons",
+    "category": 4,
     "name": "بطاطس جبنة",
     "desc": "",
     "price": { "single": 55 },
@@ -235,7 +235,7 @@
   },
   {
     "id": "jalapeno-cheese-potatoes",
-    "category": "addons",
+    "category": 4,
     "name": "بطاطس جبنة هالبينو",
     "desc": "",
     "price": { "single": 65 },
@@ -244,7 +244,7 @@
   },
   {
     "id": "strips-potatoes",
-    "category": "addons",
+    "category": 4,
     "name": "بطاطس ستريبس",
     "desc": "",
     "price": { "single": 80 },
