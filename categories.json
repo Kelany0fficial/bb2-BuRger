@@ -1,22 +1,22 @@
 [
   {
-    "id": "coal",
+    "id": "1",
     "title": "برجر ع الفحم"
   },
   {
-    "id": "smashed",
+    "id": "2",
     "title": "سماش برجر"
   },
   {
-    "id": "akela",
+    "id": "3",
     "title": "الأكيلة"
   },
   {
-    "id": "fried_chicken",
+    "id": "4",
     "title": "سندوتشات فرايد تشيكن"
   },
   {
-    "id": "appetizers",
+    "id": "5",
     "title": "المقبلات"
   }
 ]
