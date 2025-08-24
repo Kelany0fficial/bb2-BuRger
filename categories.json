@@ -1,6 +1,26 @@
 [
-  { "id": "coal", "title": "برجر ع الفحم" },
-  { "id": "smashed", "title": "سماش برجر" },
-  { "id": "chicken", "title": "فرايد تشيكن" },
-  { "id": "addons", "title": "إضافات" }
+  {
+    "id": "coal",
+    "title": "برجر ع الفحم"
+  },
+  {
+    "id": "smashed",
+    "title": "سماش برجر"
+  },
+  {
+    "id": "akela",
+    "title": "الأكيلة"
+  },
+  {
+    "id": "fried_chicken",
+    "title": "سندوتشات فرايد تشيكن"
+  },
+  {
+    "id": "add_ons",
+    "title": "إضافات"
+  },
+  {
+    "id": "appetizers",
+    "title": "المقبلات"
+  }
 ]
