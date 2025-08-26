@@ -117,20 +117,10 @@ body {
   height: 100%;
   object-fit: cover;
   opacity: 0;
-  transition: opacity 1s ease-in-out, transform 1s ease-in-out;
-  will-change: transform, opacity;
+  transition: opacity 1s ease-in-out;
 }
 .banner-slider img.active {
   opacity: 1;
-}
-.banner-slider img.fadeIn {
-  animation: fadeIn 1s ease-in-out;
-}
-.banner-slider img.slideInLeft {
-  animation: slideInLeft 1s ease-in-out;
-}
-.banner-slider img.zoomIn {
-  animation: zoomIn 1s ease-in-out;
 }
 .hero-content {
   position: relative;
@@ -187,133 +177,35 @@ body {
   background: var(--brand);
   color: #111;
   padding: 10px 14px;
-  border-radius: 10px;
-  font-size: 1rem;
-  transition: background 0.3s;
-}
-.add-cart-btn:hover {
-  background: #ffc000;
-}
-.remove-fav-btn {
-  background: var(--danger);
-  color: #fff;
-  padding: 10px 14px;
-  border-radius: 10px;
-  font-size: 1rem;
-  transition: background 0.3s;
-  display: flex;
-  align-items: center;
-  gap: 6px;
-}
-.remove-fav-btn:hover {
-  background: #dc2626;
-}
-@keyframes fadeIn {
-  from { opacity: 0; }
-  to { opacity: 1; }
-}
-@keyframes slideInLeft {
-  from { transform: translateX(-100%); opacity: 0; }
-  to { transform: translateX(0); opacity: 1; }
-}
-@keyframes zoomIn {
-  from { transform: scale(0.5); opacity: 0; }
-  to { transform: scale(1); opacity: 1; }
-}
-.added { animation: pulse 0.3s; }
-@keyframes pulse {
-  0% { transform: scale(1); }
-  50% { transform: scale(1.1); }
-  100% { transform: scale(1); }
-}
-.toast {
-  position: fixed;
-  bottom: 100px;
-  left: 50%;
-  transform: translateX(-50%);
-  background: var(--success);
-  color: #fff;
-  padding: 12px 24px;
-  border-radius: 10px;
-  z-index: 200;
-  display: none;
-  animation: fadeIn 0.5s;
-}
-.product-details img {
-  width: 100%;
-  border-radius: 20px;
-  margin-bottom: 20px;
-  max-height: 250px;
-  object-fit: contain;
-}
-.product-details p {
-  display: -webkit-box;
-  -webkit-line-clamp: 3;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-}
-.addons-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  gap: 10px;
-  margin: 20px 0;
-}
-.form-input, .form-select, .form-textarea {
-  width: 100%;
-  padding: 12px;
-  margin-bottom: 16px;
-  border: 1px solid #333;
-  border-radius: 10px;
-  background: var(--card);
-  color: var(--text);
-  font-size: 1rem;
-}
-.form-textarea {
-  height: 100px;
-}
-.full-width {
-  width: 100%;
-}
-.summary-card {
-  margin-top: 20px;
+  border-radius: 14px;
+  border: none;
+  cursor: pointer;
 }
 .navbar {
-  background: var(--card);
+  background: var(--bg);
   padding: 10px 0;
-  position: sticky;
-  top: 0;
-  z-index: 100;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.2);
-}
-.navbar .container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-.logo img {
-  height: 50px;
-  width: auto;
+  border-bottom: 1px solid #333;
 }
 .navbar ul {
   list-style: none;
-  display: flex;
-  gap: 15px;
-  margin: 0;
   padding: 0;
-  overflow-x: auto;
-  white-space: nowrap;
+  margin: 0;
+  display: flex;
+  gap: 20px;
 }
 .navbar a {
   color: var(--text);
   text-decoration: none;
   font-weight: 600;
-  transition: color 0.3s;
+}
+.navbar a.active {
+  color: var(--brand);
 }
 .navbar a:hover {
   color: var(--brand);
 }
 .footer {
-  background: var(--card);
+  background: var(--bg);
   padding: 30px 0;
   margin-top: 40px;
   border-top: 1px solid #333;
@@ -350,43 +242,11 @@ body {
 .footer-column a:hover {
   color: var(--brand);
 }
-.footer-column i {
-  font-size: 1.1rem;
-}
 .footer-column p {
   margin: 5px 0;
   color: var(--muted);
   font-size: 0.9rem;
 }
-@media (max-width: 768px) {
-  .footer-grid {
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-  }
-  .footer-column ul {
-    justify-content: flex-end;
-  }
-}
-@media (max-width: 560px) {
-  .navbar .container {
-    flex-direction: row;
-    gap: 10px;
-  }
-  .navbar ul {
-    flex-direction: row;
-    gap: 10px;
-    font-size: 0.9rem;
-  }
-  .hero h1 {
-    font-size: 2rem;
-  }
-  .btn {
-    width: 100%;
-  }
-  .product-details img {
-    max-height: 200px;
-  }
-}
-/* فلتر المنيو */
 .filters {
   display: flex;
   flex-wrap: wrap;
@@ -394,7 +254,6 @@ body {
   justify-content: center;
   margin: 20px 0;
 }
-
 .filters .btn {
   background: transparent;
   border: 1px solid var(--brand);
@@ -406,72 +265,30 @@ body {
   cursor: pointer;
   transition: all 0.25s ease-in-out;
 }
-
 .filters .btn:hover {
   background: var(--brand);
   color: #111;
 }
-
 .filters .btn.active {
   background: var(--brand);
   color: #111;
   border-color: var(--brand);
   box-shadow: 0 2px 6px rgba(0,0,0,0.3);
 }
-
-.tit {
-  font-size: 40px;
-  font-weight: 700;
-  text-align: center;
-  color: #fff;
-
-  /* جلو ناعم */
-  text-shadow: 
-    0 0 3px rgba(255, 255, 255, 0.6),
-    0 0 6px rgba(255, 215, 0, 0.4),
-    0 0 12px rgba(255, 215, 0, 0.2);
-
-  letter-spacing: 2px;
-  margin: 20px 0;
-
-  /* حركة بسيطة جدًا */
-  animation: softGlow 3s ease-in-out infinite alternate;
-}
-
-@keyframes softGlow {
-  from {
-    text-shadow: 
-      0 0 2px rgba(255, 255, 255, 0.5),
-      0 0 4px rgba(255, 215, 0, 0.3),
-      0 0 8px rgba(255, 215, 0, 0.15);
-  }
-  to {
-    text-shadow: 
-      0 0 4px rgba(255, 255, 255, 0.7),
-      0 0 8px rgba(255, 215, 0, 0.5),
-      0 0 16px rgba(255, 215, 0, 0.25);
-  }
-}
 .tit {
   font-size: 42px;
   font-weight: 800;
   text-align: center;
   color: #fff;
-
-  /* جلو أقوى بالذهبي الغامق */
   text-shadow: 
     0 0 5px rgba(255, 255, 255, 0.8),
     0 0 12px rgba(255, 215, 0, 0.7),
-    0 0 25px rgba(218, 165, 32, 0.8), /* ذهبي غامق */
+    0 0 25px rgba(218, 165, 32, 0.8),
     0 0 45px rgba(218, 165, 32, 0.9);
-
   letter-spacing: 2px;
   margin: 25px 0;
-
-  /* أنيميشن أهدى بس مع قوة في التوهج */
   animation: heavyGlow 2.5s ease-in-out infinite alternate;
 }
-
 @keyframes heavyGlow {
   from {
     text-shadow: 
@@ -487,5 +304,3 @@ body {
       0 0 55px rgba(218, 165, 32, 1);
   }
 }
-
-

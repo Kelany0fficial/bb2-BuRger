@@ -43,36 +43,29 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>المفضلة - BB2 Burger</title>
-  <meta name="description" content="تصفح منتجاتك المفضلة في BB2 Burger.">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 <body>
   <nav class="navbar">
-    <div class="container">
-      <a href="index.html" class="logo"><img id="logo-img" src="https://i.postimg.cc/90b37MGv/Whats-App-Image-2025-08-22-at-10-03-25-621ae7a1-removebg-preview.png" alt="BB2 Burger"></a>
-      <ul>
+    <div class="container flex">
+      <img id="logo-img" src="" alt="BB2 Burger" width="100">
+      <ul class="flex">
         <li><a href="index.html">الرئيسية</a></li>
         <li><a href="menu.html">المنيو</a></li>
-        <li><a href="favorites.html">المفضلة</a></li>
+        <li><a href="favorites.html" class="active">المفضلة</a></li>
         <li><a href="cart.html">السلة</a></li>
       </ul>
     </div>
   </nav>
-  <header>
-    <div class="container">
-      <h1>المفضلة</h1>
-    </div>
-  </header>
-  <section class="favorites-items">
-    <div class="container">
-      <div class="grid grid-3" id="favorites-grid">
-        <!-- Favorite items loaded via JS -->
-      </div>
-      <p id="no-favorites" style="display: none;">لا توجد منتجات في المفضلة</p>
-    </div>
+
+  <section class="container">
+    <h2 class="tit">المفضلة</h2>
+    <div id="favorites-grid" class="grid grid-3"></div>
+    <div id="no-favorites" style="display: none; text-align: center;">لا توجد منتجات في المفضلة</div>
   </section>
+
   <footer class="footer">
     <div class="container footer-grid">
       <div class="footer-column">
@@ -87,32 +80,29 @@
       <div class="footer-column">
         <h3>تواصلوا معنا</h3>
         <ul>
-          <li><a href="https://www.facebook.com/share/1EhgB6LvHR/"><i class="fab fa-facebook-f"></i> فيسبوك</a></li>
+          <li><a href="https://www.facebook.com/share/1EhgB6LvHR/"><i class="fab fa-facebook"></i> فيسبوك</a></li>
           <li><a href="https://www.instagram.com/bb2burger?igsh=MWhuenhwcWJ4YjFqMQ=="><i class="fab fa-instagram"></i> إنستجرام</a></li>
           <li><a href="https://wa.me/201006473229"><i class="fab fa-whatsapp"></i> واتساب</a></li>
-          <li> <a href="https://system.smart-mate.co/profile/5526289899" target="_blank" class="link-btn site">
-    <i class="fas fa-globe"></i> سايت BB2
-  </a></li>
-
+          <li><a href="#"><i class="fas fa-globe"></i> سايت BB2</a></li>
         </ul>
       </div>
       <div class="footer-column">
         <h3>عن المطعم</h3>
-        <p id="footer-address">الساحه-شارع الاوقاف-عمارات الاستثمار عمارة 2 امام مدرسة التجارة</p>
-<!--         <p id="footer-hours">يومياً 12 ظهراً – 2 بعد منتصف الليل</p> -->
-        <p>&copy; 2025 BB2 Burger</p>
+        <p id="footer-address"></p>
+        <p id="footer-hours"></p>
+        <p>© 2025 BB2 Burger</p>
       </div>
     </div>
   </footer>
-  <div class="floating-whatsapp">
-    <a href="https://wa.me/201006473229"><img src="https://i.postimg.cc/ZqNrHswL/wa.png" alt="واتساب"></a>
-  </div>
-  <div class="sticky-cart" id="sticky-cart">
+
+  <div id="sticky-cart" class="sticky-cart" style="display: none;">
     <span id="cart-count">0 عناصر</span>
     <span id="cart-total">0 ج</span>
     <a href="cart.html" class="btn btn-brand">الدفع</a>
   </div>
-  <div class="toast" id="toast"></div>
-  <script type="module" src="app.js"></script>
+
+  <div id="toast" style="display: none; position: fixed; top: 20px; left: 50%; transform: translateX(-50%); background: #333; color: #fff; padding: 10px 20px; border-radius: 5px; z-index: 1000;"></div>
+
+  <script src="app.js"></script>
 </body>
 </html>
