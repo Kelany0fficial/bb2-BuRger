@@ -8,7 +8,7 @@
       "single": 100,
       "double": 140
     },
-    "image": "",
+    "image": "https://i.postimg.cc/hGz6dkKn/IMG-20250826-WA0037.jpg",
     "featured": true
   },
   {
@@ -44,7 +44,7 @@
       "single": 160,
       "double": 200
     },
-    "image": "",
+    "image": "https://i.postimg.cc/mZJ4py68/IMG-20250826-WA0005.jpg",
     "featured": false
   },
   {
@@ -67,7 +67,7 @@
     "price": {
       "single": 200
     },
-    "image": "",
+    "image": "https://i.postimg.cc/05d3Dd1z/IMG-20250826-WA0044.jpg",
     "featured": true
   },
   {
@@ -91,7 +91,7 @@
       "single": 170,
       "double": 210
     },
-    "image": "",
+    "image": "https://i.postimg.cc/WbTBHYwm/IMG-20250826-WA0034.jpg",
     "featured": true
   },
   {
@@ -103,7 +103,7 @@
       "single": 170,
       "double": 210
     },
-    "image": "",
+    "image": "https://i.postimg.cc/L5Yp6Jht/IMG-20250826-WA0004.jpg",
     "featured": true
   },
   {
@@ -115,7 +115,7 @@
       "single": 160,
       "double": 200
     },
-    "image": "",
+    "image": "https://i.postimg.cc/PJ4RHhQW/IMG-20250826-WA0042.jpg",
     "featured": true
   },
   {
@@ -127,7 +127,7 @@
       "single": 100,
       "double": 130
     },
-    "image": "",
+    "image": "https://i.postimg.cc/XJZHrm65/Whats-App-Image-2025-08-27-at-01-26-12-c73f750f.jpg",
     "featured": false
   },
   {
@@ -139,7 +139,7 @@
       "single": 115,
       "double": 145
     },
-    "image": "",
+    "image": "https://i.postimg.cc/RFwYPw3b/IMG-20250826-WA0041.jpg",
     "featured": true
   },
   {
@@ -188,7 +188,7 @@
       "single": 145,
       "double": 185
     },
-    "image": "",
+    "image": "https://i.postimg.cc/tg80vXB7/IMG-20250826-WA0033.jpg",
     "featured": false
   },
   {
@@ -200,7 +200,7 @@
       "single": 145,
       "double": 185
     },
-    "image": "",
+    "image": "https://i.postimg.cc/26j9Cy20/Whats-App-Image-2025-08-27-at-01-21-33-a13a0fa5.jpg",
     "featured": false
   },
   {
@@ -212,7 +212,7 @@
       "single": 145,
       "double": 185
     },
-    "image": "",
+    "image": "https://i.postimg.cc/mg6KhLfV/IMG-20250826-WA0038.jpg",
     "featured": false
   },
   {
@@ -224,7 +224,7 @@
       "single": 145,
       "double": 185
     },
-    "image": "",
+    "image": "https://i.postimg.cc/26PHhGCK/Whats-App-Image-2025-08-27-at-01-26-13-e52075d5.jpg",
     "featured": false
   }
 ]
