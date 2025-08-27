@@ -1,9 +1,9 @@
 :root {
-  --bg: #1a1a1a; /* خلفية داكنة مريحة */
-  --brand: #FFD000; /* لون العلامة التجارية */
-  --text: #e0e0e0; /* نص أبيض رمادي فاتح للرؤية */
-  --muted: #a0a0a0; /* نص ثانوي */
-  --card: #2a2a2a; /* خلفية الكروت داكنة */
+  --bg: #1a1a1a;
+  --brand: #FFD000;
+  --text: #e0e0e0;
+  --muted: #a0a0a0;
+  --card: #2a2a2a;
   --success: #22c55e;
   --danger: #ef4444;
 }
@@ -13,16 +13,16 @@ body {
   color: var(--text);
   line-height: 1.6;
   margin: 0;
-  max-width: 100vw; /* عرض الشاشة بالظبط */
-  overflow-x: hidden; /* منع السكرول الأفقي */
+  max-width: 100vw;
+  overflow-x: hidden;
 }
 .container {
   max-width: 1140px;
   margin: auto;
-  padding: 12px; /* تصغير الـ padding */
+  padding: 12px;
 }
 .btn {
-  padding: 10px 14px; /* تصغير الأزرار */
+  padding: 10px 14px;
   border-radius: 12px;
   font-weight: 600;
   border: 0;
@@ -30,7 +30,7 @@ body {
   transition: transform 0.2s, background 0.3s;
 }
 .btn:hover {
-  transform: scale(1.05); /* أنيميشن خفيف عند الـ hover */
+  transform: scale(1.05);
 }
 .btn-brand {
   background: var(--brand);
@@ -52,10 +52,10 @@ body {
   padding: 16px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.5);
   transition: transform 0.3s, box-shadow 0.3s;
-  animation: fadeIn 0.5s ease-in; /* أنيميشن عند تحميل الكروت */
+  animation: fadeIn 0.5s ease-in;
 }
 .card:hover {
-  transform: scale(1.03); /* أنيميشن خفيف عند الـ hover */
+  transform: scale(1.03);
   box-shadow: 0 6px 20px rgba(0,0,0,0.6);
 }
 .product-card {
@@ -89,7 +89,7 @@ body {
 .grid {
   display: grid;
   gap: 16px;
-  animation: fadeIn 0.5s ease-in; /* أنيميشن عند تحميل الـ grid */
+  animation: fadeIn 0.5s ease-in;
 }
 .grid-3 {
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -103,8 +103,23 @@ body {
 #addons.grid {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
+#addons label, #combo-label {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* زيادة المسافة بين الـ checkbox والنص */
+  margin-bottom: 10px;
+  cursor: pointer;
+  flex-wrap: nowrap; /* ضمان إن الـ checkbox والنص في نفس السطر */
+}
+input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  accent-color: var(--brand);
+  cursor: pointer;
+  margin: 0; /* إزالة أي margin افتراضي */
+}
 input, textarea, select {
-  background: #333; /* خلفية داكنة لحقول الإدخال */
+  background: #333;
   color: var(--text);
   border: 1px solid #555;
   border-radius: 8px;
@@ -129,7 +144,10 @@ textarea {
 @media (max-width: 560px) {
   .grid-3 { grid-template-columns: 1fr; }
   #addons.grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  #logo-img { width: 60px; } /* تصغير اللوجو على الموبايل */
+  #logo-img { width: 60px; }
+  #addons label, #combo-label {
+    gap: 8px; /* تقليل المسافة على الموبايل */
+  }
 }
 .hero {
   position: relative;
@@ -205,7 +223,7 @@ textarea {
 }
 .fav-btn:hover {
   color: var(--danger);
-  transform: scale(1.1); /* أنيميشن لزر المفضلة */
+  transform: scale(1.1);
 }
 .fav-btn.favorited {
   color: var(--danger);
@@ -220,11 +238,11 @@ textarea {
   transition: transform 0.2s;
 }
 .add-cart-btn:hover {
-  transform: scale(1.05); /* أنيميشن لزر الإضافة */
+  transform: scale(1.05);
 }
 .navbar {
   background: var(--card);
-  padding: 8px 0; /* تصغير الـ padding */
+  padding: 8px 0;
   border-bottom: 1px solid #444;
 }
 .navbar ul {
@@ -232,13 +250,13 @@ textarea {
   padding: 0;
   margin: 0;
   display: flex;
-  gap: 12px; /* تصغير الـ gap */
+  gap: 12px;
 }
 .navbar a {
   color: var(--text);
   text-decoration: none;
   font-weight: 600;
-  font-size: 0.9rem; /* تصغير النص */
+  font-size: 0.9rem;
 }
 .navbar a.active {
   color: var(--brand);
