@@ -366,18 +366,5 @@ textarea {
   from { opacity: 0; transform: translateY(10px); }
   to { opacity: 1; transform: translateY(0); }
 }
-.reviews p {
-  position: relative;
-  padding-right: 18px;   /* مسافة عشان النقطة */
-  margin: 6px 0;
-}
 
-.reviews p::before {
-  content: "•";           /* النقطة */
-  position: absolute;
-  right: 0;               /* يمين مع العربي */
-  color: var(--brand);    /* نفس لون البراند */
-  font-size: 18px;
-  line-height: 1;
-}
 
