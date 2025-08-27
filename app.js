@@ -116,7 +116,7 @@ async function loadFooterData() {
     const addressEl = document.querySelector('#footer-address');
     const hoursEl = document.querySelector('#footer-hours');
     if (addressEl) addressEl.textContent = settings.address;
-    if (hoursEl) hoursEl.textContent = settings.hours || '10 صباحًا - 2 صباحًا';
+    if (hoursEl) hoursEl.textContent = settings.hours || '';
   } catch (e) {
     console.error('خطأ في تحميل بيانات الفوتر:', e);
   }
