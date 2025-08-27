@@ -378,22 +378,6 @@ textarea {
   font-family: "Cairo", sans-serif;
 }
 
-.review-list p {
-  position: relative;
-  padding-right: 20px;
-  margin: 8px 0;
-  font-size: 16px;
-  line-height: 1.6;
-}
-
-.review-list p::before {
-  content: "•";
-  position: absolute;
-  right: 0;
-  color: #ffcc00;   /* لون أصفر براند */
-  font-size: 20px;
-  line-height: 1;
-}
 
 
 
