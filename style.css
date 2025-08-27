@@ -366,15 +366,18 @@ textarea {
   from { opacity: 0; transform: translateY(10px); }
   to { opacity: 1; transform: translateY(0); }
 }
-
-.card ul {
-  list-style-type: disc !important;  /* رجع النقط */
-  padding-right: 20px;               /* مسافة من اليمين */
-  margin: 0;                         /* زيرو margin افتراضي */
+.reviews p {
+  position: relative;
+  padding-right: 18px;   /* مسافة عشان النقطة */
+  margin: 6px 0;
 }
 
-.card li {
-  display: list-item !important;      /* رجع كل li كـ block */
-  margin-bottom: 8px;                 /* مسافة بين الجمل */
+.reviews p::before {
+  content: "•";           /* النقطة */
+  position: absolute;
+  right: 0;               /* يمين مع العربي */
+  color: var(--brand);    /* نفس لون البراند */
+  font-size: 18px;
+  line-height: 1;
 }
 
