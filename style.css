@@ -368,3 +368,20 @@ textarea {
 }
 
 
+
+.reviews p {
+  position: relative;
+  padding-right: 18px;   /* مسافة من اليمين */
+  margin: 6px 0;
+}
+
+.reviews p::before {
+  content: "•";           /* النقطة */
+  position: absolute;
+  right: 0;               /* يمين مع العربي */
+  color: var(--brand);    /* لون البراند (الأصفر) */
+  font-size: 18px;
+  line-height: 1;
+}
+
+
