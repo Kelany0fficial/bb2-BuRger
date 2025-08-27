@@ -189,5 +189,60 @@
     },
     "image": "https://i.postimg.cc/26PHhGCK/Whats-App-Image-2025-08-27-at-01-26-13-e52075d5.jpg",
     "featured": false
+  },
+    {
+    "id": 17,
+    "category": "e",
+    "name": "2 قطعه استربس حار",
+    "desc": "",
+    "price": {
+      "single": 50
+    },
+    "image": "",
+    "featured": false
+  },
+  {
+    "id": 18,
+    "category": "e",
+    "name": "بطاطس",
+    "desc": "",
+    "price": {
+      "single": 40
+    },
+    "image": "https://i.postimg.cc/tg80vXB7/IMG-20250826-WA0033.jpg",
+    "featured": false
+  },
+  {
+    "id": 19,
+    "category": "e",
+    "name": "بطاطس جبنه",
+    "desc": "",
+    "price": {
+      "single": 55
+    },
+    "image": "https://i.postimg.cc/26j9Cy20/Whats-App-Image-2025-08-27-at-01-21-33-a13a0fa5.jpg",
+    "featured": false
+  },
+  {
+    "id": 20,
+    "category": "e",
+    "name": "بطاطس جبنه هالبينو",
+    "desc": "",
+    "price": {
+      "single": 65
+    },
+    "image": "https://i.postimg.cc/mg6KhLfV/IMG-20250826-WA0038.jpg",
+    "featured": false
+  },
+  {
+    "id": 21,
+    "category": "e",
+    "name": "بطاطس جبنه استربس",
+    "desc": "",
+    "price": {
+      "single": 80
+    },
+    "image": "https://i.postimg.cc/26PHhGCK/Whats-App-Image-2025-08-27-at-01-26-13-e52075d5.jpg",
+    "featured": false
   }
 ]
